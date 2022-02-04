@@ -24,6 +24,17 @@ var pcPrice = 50;
 var divisionPrice = laptopPrice / pcPrice;
 console.log(divisionPrice);   // result show 12 */
 
+
+
+//Modulus in JavaScript
+var laptopPrice = 620;
+var pcPrice = 50;
+var divisionPrice = laptopPrice % pcPrice;
+console.log(divisionPrice);   // result show 20 */
+
+
+
+
 /* if laptop price 500 increase
 var laptopPrice = 60000;
 laptopPrice = laptopPrice + 500 // price increase 500

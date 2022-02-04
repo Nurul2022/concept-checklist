@@ -1,3 +1,7 @@
+/* As a Programmar must know, otherwise can't.
+""01.Variable, 02.Array, 03.Condition, 04.Loop, 05. Function ""*/
+
+
 // 1. write 3 variables (number, string, boolean)
 
 // 2. 2 variables using (let, const)

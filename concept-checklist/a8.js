@@ -6,19 +6,19 @@ var groceryShop = ['Rice', 'pulse', 'Sugar', 'Salt', 'onoin', 'Oil'];
 console.log(groceryShop);
 
 // How much element in the array, result show 6
-var groceryCount = groceryShop.length; 
+var groceryCount = groceryShop.length;
 console.log(groceryCount);
 // element position, result show 2  
-var SugarIndex = groceryShop.indexOf('Sugar'); 
+var SugarIndex = groceryShop.indexOf('Sugar');
 console.log(SugarIndex);
 // not exist element position, result show -1  
-var index = groceryShop.indexOf('potato'); 
+var index = groceryShop.indexOf('potato');
 console.log(index);
 // element 2nd position, result show Sugar  
-var index = groceryShop[2]; 
+var index = groceryShop[2];
 console.log(index);
 // element 20th position, result show Undefined, because of 20th position not exist  
-var index = groceryShop[20]; 
+var index = groceryShop[20];
 console.log(index);
 // 4th position element onion change to Garlic,
 // result show [ 'Rice', 'pulse', 'Sugar', 'Salt', 'Garlic', 'Oil' ]
@@ -34,3 +34,13 @@ console.log(groceryShop);
 groceryShop.pop('chocolate');
 console.log(groceryShop);
 // result show [ 'Rice', 'pulse', 'Sugar', 'Salt', 'Garlic', 'Oil', 'soap']
+
+// The shift() method removes the first array element and "shifts" all other elements to a lower index. (Rice will be removed in the beginning)
+groceryShop.shift();
+console.log(groceryShop);
+//result show  [ 'pulse', 'Sugar', 'Salt', 'Garlic', 'Oil', 'soap' ]
+
+// The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements: (lemon will be added in the beginning)
+groceryShop.unshift('lemon');
+console.log(groceryShop);
+//result show ['lemon', 'pulse', 'Sugar', 'Salt', 'Garlic', 'Oil', 'soap']
